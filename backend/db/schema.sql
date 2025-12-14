@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS people (
+  userid INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT UNIQUE NOT NULL,
+  role TEXT CHECK(role IN ('USER','ADMIN')) NOT NULL,
+  hashedpassword TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS items (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  itemname TEXT NOT NULL,
+  price INTEGER NOT NULL,
+  quantity INTEGER NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS cart (
+  userid INTEGER,
+  itemid INTEGER,
+  quantity INTEGER DEFAULT 1,
+  PRIMARY KEY (userid, itemid),
+  FOREIGN KEY(userid) REFERENCES people(userid),
+  FOREIGN KEY(itemid) REFERENCES items(id)
+);
