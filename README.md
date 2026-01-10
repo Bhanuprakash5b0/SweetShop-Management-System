@@ -116,43 +116,6 @@ For detailed API documentation including all endpoints, request/response formats
 - `npm run build`: Build for production
 - `npm test`: Run tests
 
-## My AI Usage
-
-### AI Tools Used
-- **GitHub Copilot**: Primary AI assistant for code generation, debugging, and productivity enhancement
-- **GitHub Copilot Chat**: Used for complex problem-solving, code explanations, and architectural decisions
-
-### How I Used AI Tools
-
-1. **Code Generation and Completion**:
-   - Used GitHub Copilot to generate boilerplate code for React components, Express routes, and database queries
-   - Leveraged Copilot's suggestions for implementing JWT authentication middleware and validation logic
-
-2. **Debugging and Problem Solving**:
-   - Asked Copilot Chat to help debug authentication flow issues and API integration problems
-   - Used Copilot to identify and fix middleware import path errors
-
-3. **Documentation Generation**:
-   - Used Copilot to help structure and write comprehensive API documentation
-   - Generated detailed README content with proper formatting and organization
-   - Created clear installation and setup instructions
-
-4. **Code Review and Optimization**:
-   - Asked Copilot to review code for potential security vulnerabilities
-   - Used AI suggestions to improve code readability and maintainability
-   - Implemented performance optimizations based on Copilot recommendations
-
-### Reflection on AI Impact
-
-AI tools, particularly GitHub Copilot, significantly enhanced my development workflow by:
-
-- **Accelerating Development**: Reduced time spent on repetitive coding tasks by 60-70%, allowing focus on business logic and architecture
-- **Improving Code Quality**: AI suggestions helped implement best practices and catch potential bugs early
-- **Learning Enhancement**: Exposure to different coding patterns and approaches through AI suggestions broadened my knowledge
-- **Documentation Efficiency**: AI assistance made creating comprehensive documentation much faster and more thorough
-- **Problem-Solving Support**: Complex integration issues were resolved more quickly with AI-guided debugging
-
-However, I maintained full control over architectural decisions and ensured all AI-generated code was reviewed and understood. The AI served as a powerful productivity multiplier while preserving the integrity of the development process and final product quality.
 
 ## Contributing
 
